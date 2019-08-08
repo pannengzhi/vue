@@ -1,0 +1,33 @@
+.el-menu {
+	border-right: none;
+}
+.el-main {
+	padding: 0;
+}
+.el-aside .el-submenu .el-menu .el-menu-item,
+.el-aside .el-submenu .el-menu .el-submenu__title {
+	background-color: $subMenuBg !important;
+	&:hover {
+		background-color: #48576a !important;
+	} 
+}
+[v-cloak] {
+	display: none;
+}
+body .el-table th.gutter,
+body .el-table colgroup.gutter {
+	display: table-cell !important;
+}
+.el-table th {
+	text-align: center;
+	padding: 1px 0;
+}
+.el-table th .cell {line-height: 2.25rem}
+.el-table td {padding: 3px 0}
+.el-table .el-table__body td .cell {
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.el-textarea__inner {padding: 5px 8px}
