@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d229205"],{dbb3:function(t,e,l){"use strict";l.r(e);var n=l("2877"),a=Object(n.a)({},function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticStyle:{padding:"30px"}},[e("el-alert",{attrs:{closable:!1,title:"二级菜单"}})],1)},[],!1,null,null,null);e.default=a.exports}}]);
